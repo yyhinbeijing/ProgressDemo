@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6416E9791CFD86AE003ED916 /* 进度条底.png in Resources */ = {isa = PBXBuildFile; fileRef = 6416E9771CFD86AE003ED916 /* 进度条底.png */; };
+		6416E97A1CFD86AE003ED916 /* 进度条进度.png in Resources */ = {isa = PBXBuildFile; fileRef = 6416E9781CFD86AE003ED916 /* 进度条进度.png */; };
+		6416E97D1CFD8848003ED916 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6416E97C1CFD8848003ED916 /* TestView.m */; };
+		6416E97F1CFD885C003ED916 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6416E97E1CFD885C003ED916 /* TestView.xib */; };
 		648ECA441CFACAE4005E18DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 648ECA431CFACAE4005E18DF /* main.m */; };
 		648ECA471CFACAE4005E18DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 648ECA461CFACAE4005E18DF /* AppDelegate.m */; };
 		648ECA4A1CFACAE4005E18DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 648ECA491CFACAE4005E18DF /* ViewController.m */; };
@@ -35,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6416E9771CFD86AE003ED916 /* 进度条底.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "进度条底.png"; sourceTree = "<group>"; };
+		6416E9781CFD86AE003ED916 /* 进度条进度.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "进度条进度.png"; sourceTree = "<group>"; };
+		6416E97B1CFD8848003ED916 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		6416E97C1CFD8848003ED916 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		6416E97E1CFD885C003ED916 /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
 		648ECA3F1CFACAE4005E18DF /* ProgressDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		648ECA431CFACAE4005E18DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		648ECA451CFACAE4005E18DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,10 +110,15 @@
 		648ECA411CFACAE4005E18DF /* ProgressDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6416E9771CFD86AE003ED916 /* 进度条底.png */,
+				6416E9781CFD86AE003ED916 /* 进度条进度.png */,
 				648ECA451CFACAE4005E18DF /* AppDelegate.h */,
 				648ECA461CFACAE4005E18DF /* AppDelegate.m */,
 				648ECA481CFACAE4005E18DF /* ViewController.h */,
 				648ECA491CFACAE4005E18DF /* ViewController.m */,
+				6416E97B1CFD8848003ED916 /* TestView.h */,
+				6416E97C1CFD8848003ED916 /* TestView.m */,
+				6416E97E1CFD885C003ED916 /* TestView.xib */,
 				648ECA4B1CFACAE4005E18DF /* Main.storyboard */,
 				648ECA4E1CFACAE4005E18DF /* Assets.xcassets */,
 				648ECA501CFACAE4005E18DF /* LaunchScreen.storyboard */,
@@ -243,9 +257,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6416E97F1CFD885C003ED916 /* TestView.xib in Resources */,
 				648ECA521CFACAE4005E18DF /* LaunchScreen.storyboard in Resources */,
 				648ECA4F1CFACAE4005E18DF /* Assets.xcassets in Resources */,
+				6416E9791CFD86AE003ED916 /* 进度条底.png in Resources */,
 				648ECA4D1CFACAE4005E18DF /* Main.storyboard in Resources */,
+				6416E97A1CFD86AE003ED916 /* 进度条进度.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6416E97D1CFD8848003ED916 /* TestView.m in Sources */,
 				648ECA4A1CFACAE4005E18DF /* ViewController.m in Sources */,
 				648ECA471CFACAE4005E18DF /* AppDelegate.m in Sources */,
 				648ECA441CFACAE4005E18DF /* main.m in Sources */,
@@ -498,6 +516,7 @@
 				648ECA6E1CFACAE4005E18DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		648ECA6F1CFACAE4005E18DF /* Build configuration list for PBXNativeTarget "ProgressDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +525,7 @@
 				648ECA711CFACAE4005E18DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		648ECA721CFACAE4005E18DF /* Build configuration list for PBXNativeTarget "ProgressDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +534,7 @@
 				648ECA741CFACAE4005E18DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

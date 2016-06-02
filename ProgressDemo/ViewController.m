@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TestView.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIProgressView *progressView = [[UIProgressView alloc] init];
+    progressView.progressImage = [UIImage imageNamed:@"进度条底.png"];
+    progressView.trackImage = [UIImage imageNamed:@"进度条进度.png"];
+    progressView.progress = 0.8;
+    progressView.frame = CGRectMake(0, 66, 320, 40);
+    
+    TestView *testView = [[[NSBundle mainBundle] loadNibNamed:@"TestView" owner:self options:nil] lastObject];
+    testView.backgroundColor = [UIColor redColor];
+    testView.frame = CGRectMake(0, 70, 375/2, 300/2);
+    [self.view addSubview:testView];
+    
+    
+    
+//    progressView.progress = 40;
+    [self.view addSubview:progressView];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
